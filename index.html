@@ -1,52 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing page</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>BMW website</title>
   </head>
   <body>
-    <div class="header">
-      <img src="BMW LOGO.png" alt="header image" />
-      <div class="links">
-        <ol>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">INFO</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ol>
-      </div>
-    </div>
+    <nav class="navbar">
+      <img class="header-image" src="images\BMW-LOGO.png" alt="header image" />
+      <ul class="nav-links">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">INFO</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
     <div class="container">
-      <div class="info">
-        <div class="heading"></div>
-        <div class="bio"></div>
-        <button class="sign1">Sign up</button>
+      <div class="textbox">
+        <h1>BMW Special Offers.</h1>
+        <p>
+          Monthly EMI starting from Rs.32,222*/Month. Check Out similar BMW
+          finance offers available across the BMW range.
+        </p>
+        <button class="knowmore">know more</button>
       </div>
-      <img src="BMW.jpg" alt="Landing png" />
+      <img class="main-img" src="images\BMW.jpg" alt="Landing png" />
     </div>
+
     <div class="information">
-      <div class="title"></div>
-      <img src="BMW M3.jpg" alt="BMW M3" />
-      <div class="text">
-        The BMW M3 is a high-performance sports sedan known for its powerful
-        engine, sharp handling, and premium design.
-      </div>
-      <img src="BMW M4.jpg" alt="BMW M4" />
-      <div class="text">
-        The BMW M4 is a high-performance sports coupe known for its aggressive
-        design, powerful engine, and precise handling.
-      </div>
-      <img src="BMW M5.jpg" alt="BMW M5" />
-      <div class="text">
-        The BMW M5 is a high-performance luxury sedan that combines everyday
-        comfort with race-car-level power.
-      </div>
-      <img src="BMW I8.jpg" alt="BMW I8" />
-      <div class="text">
-        The BMW i8 is a futuristic plug-in hybrid sports car that combines
-        performance with efficiency.
+      <div class="title">Find your BMW</div>
+      <div class="booklist">
+        <div class="poster">
+          <img class="m3" src="images\BMW-M3.jpg" alt="BMW M3" />
+          <div class="text">
+            The BMW M3 is a high-performance sports sedan known for its powerful
+            engine, sharp handling, and premium design.
+          </div>
+        </div>
+        <div class="poster">
+          <img class="m4" src="images\BMW-M4.jpg" alt="BMW M4" />
+          <div class="text">
+            The BMW M4 is a high-performance sports coupe known for its
+            aggressive design, powerful engine, and precise handling.
+          </div>
+        </div>
+        <div class="poster">
+          <img class="m5" src="images\BMW-M5.jpg" alt="BMW M5" />
+          <div class="text">
+            The BMW M5 is a high-performance luxury sedan that combines everyday
+            comfort with race-car-level power.
+          </div>
+        </div>
+        <div class="poster">
+          <img class="i8" src="images\BMW-I8.jpg" alt="BMW I8" />
+          <div class="text">
+            The BMW i8 is a futuristic plug-in hybrid sports car that combines
+            performance with efficiency.
+          </div>
+        </div>
       </div>
     </div>
+
     <div class="quote">
       <div class="message">
         “At BMW, we are driven by the constant pursuit of progress. Innovation,
@@ -55,14 +69,15 @@
         the future, we continue to create vehicles that inspire people and shape
         the mobility of tomorrow.”
       </div>
-      <div class="author">Oliver Zipse</div>
+      <div class="author">-Oliver Zipse</div>
     </div>
     <div class="inquiry">
-      <div class="para1">Call to action!It's time!</div>
-      <div class="para2">
-        Sign up for our product by clicking that button right over there!
+      <div class="block">
+        <div class="para">
+          50 YEARS OF <br />COMFORTING <br />THRILL SEEKERS
+        </div>
+        <button class="explore">Discover now</button>
       </div>
-      <button class="sign2">Sign up</button>
     </div>
     <div class="footer">Copyright © BMW AG 2025</div>
   </body>
